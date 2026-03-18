@@ -14,4 +14,11 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+.form-container .form input {
+  border: none;
+  outline: none;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  border-radius: 1rem;
 }/*# sourceMappingURL=form.css.map */
