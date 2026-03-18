@@ -5,9 +5,10 @@ const Login = () => {
    <main>
     <div className='form-container'>
         <h1>Login</h1>
-        <form >
+        <form  className='form'>
             <input type="text" name="username" placeholder='Enter username' />
             <input type="text" name="password" placeholder='Enter password'/>
+            <button>submit</button>
         </form>
     </div>
    </main>
