@@ -10,6 +10,10 @@ main{
 }
 .form-container{
     height: fit-content;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
 
     .form{
@@ -18,7 +22,7 @@ main{
         gap: 1rem;
 
 
-        input{
+        input,button{
             border: none;
             outline: none;
             padding-inline: 1.5rem;
@@ -27,7 +31,9 @@ main{
         }
 
         button{
-            
+            background-color: #bd0c23;
+            color: whitesmoke;
+            cursor: pointer;
         }
     }
 }

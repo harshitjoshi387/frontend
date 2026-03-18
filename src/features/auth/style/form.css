@@ -9,16 +9,25 @@ main {
 .form-container {
   height: -moz-fit-content;
   height: fit-content;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .form-container .form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.form-container .form input {
+.form-container .form input, .form-container .form button {
   border: none;
   outline: none;
   padding-inline: 1.5rem;
   padding-block: 1rem;
   border-radius: 1rem;
+}
+.form-container .form button {
+  background-color: #bd0c23;
+  color: whitesmoke;
+  cursor: pointer;
 }/*# sourceMappingURL=form.css.map */
