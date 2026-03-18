@@ -13,7 +13,7 @@ const Register = () => {
             <button>register</button>
         </form>
 
-        <p>Already have an account? link <Link to='/login'>login</Link></p>
+        <p>Already have an account? link <Link className='toggleAuthForm' to='/login'>login</Link></p>
     </div>
    </main>
   )

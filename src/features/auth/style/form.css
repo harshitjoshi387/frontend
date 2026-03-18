@@ -30,4 +30,9 @@ main {
   background-color: #bd0c23;
   color: whitesmoke;
   cursor: pointer;
+}
+.form-container .toggleAuthForm {
+  color: #bd0c23;
+  cursor: pointer;
+  text-decoration: none;
 }/*# sourceMappingURL=form.css.map */

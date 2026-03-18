@@ -11,7 +11,7 @@ const Login = () => {
             <input type="text" name="password" placeholder='Enter password'/>
             <button>submit</button>
         </form>
-        <p>Don't have an account? <Link to="/register" >register</Link></p>
+        <p>Don't have an account? <Link className='toggleAuthForm' to="/register" >register</Link></p>
     </div>
    </main>
   )
