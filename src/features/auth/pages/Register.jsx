@@ -14,6 +14,8 @@ const Register = () => {
       username,
       email,
       password
+    },{
+      withCredentials:true
     })
     .then(res=>{
       console.log(res);
